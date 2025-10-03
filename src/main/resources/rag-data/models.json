@@ -1,0 +1,13 @@
+[
+  { "company": "OpenAI", "model": "GPT-4", "context_window": "8192 tokens" },
+  { "company": "OpenAI", "model": "GPT-4-turbo", "context_window": "128k tokens" },
+  { "company": "OpenAI", "model": "GPT-3.5-turbo", "context_window": "4096 tokens" },
+  { "company": "Anthropic", "model": "Claude-2", "context_window": "100k tokens" },
+  { "company": "Cohere", "model": "Gemini Pro", "context_window": "100k tokens" },
+  { "company": "Google DeepMind", "model": "Gemini 1.5 Pro", "context_window": "128k tokens" },
+  { "company": "Google DeepMind", "model": "Gemini 1.5", "context_window": "32k tokens" },
+  { "company": "Alibaba Cloud", "model": "Qen 2.5 72B", "context_window": "128k tokens" },
+  { "company": "Meta", "model": "Llama 3", "context_window": "32k tokens" },
+  { "company": "Meta", "model": "Llama 3 70B Chat", "context_window": "32k tokens" },
+  { "company": "Microsoft", "model": "Sydney (based on GPT-4)", "context_window": "8192 tokens" }
+]
