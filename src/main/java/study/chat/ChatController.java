@@ -21,7 +21,7 @@ public class ChatController {
     @GetMapping("/chat")
     public String chat(@RequestParam(defaultValue = "Tell me an interesting fact about Java") String message) {
         return chatClient.prompt()
-                .user("Tell me an interesting fact about Java")
+                .user(message)
                 .advisors(loggerAdvisor)
                 .call()
                 .content();
