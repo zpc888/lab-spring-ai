@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "spring-io-2025": {
+      "command": "/home/zpc/.sdkman/candidates/java/current/bin/java",
+      "args": [
+        "-jar",
+        "/home/zpc/works/study/lab-ai/ai-workshop-with-spring-ai-by-dan-vega/spring-ai-mcp/build/libs/spring-ai-mcp-0.0.1-SNAPSHOT.jar"
+      ]
+    }
+  }
+}

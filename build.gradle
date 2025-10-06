@@ -34,6 +34,9 @@ dependencies {
     implementation 'org.springframework.ai:spring-ai-advisors-vector-store'
 //    implementation 'org.springframework.ai:spring-ai-starter-model-anthropic'
 
+//    add MCP client in stdio protocol
+    implementation 'org.springframework.ai:spring-ai-starter-mcp-client'
+
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
     developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
